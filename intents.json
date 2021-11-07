@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "Can you suggest",
+        "Please suggest me",
+	      "Can you recommend",
+	      "I want you to compare"
+      ],
+      "responses": [
+        "According to your previous purchase, size, body shape I am recommending these check them out."
+      ]
+    },
+    {
+      "tag": "cart",
+      "patterns": [
+        "wishlist",
+	      "cart",
+	      "wishlist this item",
+	      "add this item to cart"
+      ],
+      "responses": [
+        "Item added to Cart.",
+	      "Item added to Wishlist."
+      ]
+    },
+    {
+      "tag": "enhance",
+      "patterns": [
+        "What are the new trends",
+	      "What are the latest",
+        "Tell me about new collection available",
+        "Suggest me some of your new stocks"
+      ],
+      "responses": [
+        "Currently this item is going out of stock !!",
+        "People are liking this new Live Video of Ruhi Agarwal on Festive wear",
+        "Monte Carlo just released it's Fall'21 collection. You can check that out"
+      ]
+    },
+    {
+      "tag": "complain",
+      "patterns": [
+        "I want to file complain",
+      	"want to file",
+        "It is not visible",
+        "I have not received"
+      ],
+      "responses": [
+        "Hey sorry for your inconvenience, we have registerd your complain will get back to you soon"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want to request refund",
+	      "I want to place return request",
+        "I want to exchange this item",
+        "I want to return my recent order."
+      ],
+      "responses": [
+        "Hey sorry for your inconvenience, we have 30 days return & exchange policy. Your refund will be initiated in 2-3 days."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Thank you for Shopping with us."]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal or amazon or google?",
+        "Are you cash only?",
+        "Wahat are the Payment Options"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, Paypal as well as COD.",
+        "We accept most major credit cards, Paypal as well as COD."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "when can I receive my return request",
+        "Where is my return order",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Its on the way...",
+        "Shipping takes 2-4 days"
+      ]
+    }
+  ]
+}
